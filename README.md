@@ -48,6 +48,8 @@ sudo apt install libboost-all-dev
 
 ### rust-bitcoin
 
+For the `script_eval` target, we recommend to get rust-bitcoin from https://github.com/brunoerg/rust-bitcoin/tree/bitcoinfuzz since there are some checks that should be skipped for better fuzzing.
+
 ```bash
 cd modules/rustbitcoin
 make cargo && make
@@ -73,6 +75,8 @@ make
 ```
 
 ### btcd
+
+For the `script_eval` target, we recommend to get btcd from https://github.com/brunoerg/btcd/tree/bitcoinfuzz since there are some checks that should be skipped for better fuzzing.
 
 ```bash
 cd modules/btcd
