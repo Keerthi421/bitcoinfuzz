@@ -64,8 +64,6 @@ export CXXFLAGS="$CXXFLAGS -DRUST_MINISCRIPT"
 
 ### btcd
 
-For the `script_eval` target, we recommend to get btcd from https://github.com/brunoerg/btcd/tree/bitcoinfuzz since there are some checks that should be skipped for better fuzzing.
-
 ```bash
 cd modules/btcd
 make
